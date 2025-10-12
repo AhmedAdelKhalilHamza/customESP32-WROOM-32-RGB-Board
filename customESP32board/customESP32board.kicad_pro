@@ -64,7 +64,7 @@
       },
       "rule_severities": {
         "annular_width": "ignore",
-        "clearance": "error",
+        "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -127,7 +127,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.05,
         0.4,
         0.6
       ],
