@@ -10863,7 +10863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_629105150521"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -13035,9 +13035,9 @@
 		(at 44.45 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "996df97e-5d59-4415-9ff4-e2a90ab037ac")
 		(property "Reference" "D4"
 			(at 43.434 62.23 90)
@@ -13507,9 +13507,9 @@
 		(at 38.1 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "a5e276ed-568f-44cc-aca0-bbc19d3fdd2a")
 		(property "Reference" "D3"
 			(at 37.084 62.23 90)
@@ -15363,9 +15363,9 @@
 		(at 31.75 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "ea628765-33f5-4fa2-bb33-55308e6613d0")
 		(property "Reference" "D2"
 			(at 30.734 62.23 90)
