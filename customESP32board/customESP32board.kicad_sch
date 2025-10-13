@@ -1223,7 +1223,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_B_Micro"
+		(symbol "Connector:USB_B"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1239,7 +1239,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB_B_Micro"
+			(property "Value" "USB_B"
 				(at -5.08 8.89 0)
 				(effects
 					(font
@@ -1266,7 +1266,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Micro Type B connector"
+			(property "Description" "USB Type B connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1275,7 +1275,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector USB micro"
+			(property "ki_keywords" "connector USB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1284,7 +1284,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*Micro*B*"
+			(property "ki_fp_filters" "USB*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1293,7 +1293,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_B_Micro_0_1"
+			(symbol "USB_B_0_1"
 				(rectangle
 					(start -5.08 -7.62)
 					(end 5.08 7.62)
@@ -1307,8 +1307,8 @@
 				)
 				(polyline
 					(pts
-						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
-						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
+						(xy -4.064 4.318) (xy -2.286 4.318) (xy -2.286 5.715) (xy -2.667 6.096) (xy -3.683 6.096) (xy -4.064 5.715)
+						(xy -4.064 4.318)
 					)
 					(stroke
 						(width 0)
@@ -1318,10 +1318,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
-					)
+				(rectangle
+					(start -3.81 5.588)
+					(end -2.54 4.572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1455,19 +1454,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "USB_B_Micro_1_1"
+			(symbol "USB_B_1_1"
 				(pin passive line
 					(at -2.54 -10.16 90)
 					(length 2.54)
@@ -1478,7 +1466,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1496,7 +1484,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1551,24 +1539,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "ID"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6078,12 +6048,6 @@
 		(uuid "8e7fd876-a80f-4db9-ab36-7d5bb1d85b36")
 	)
 	(junction
-		(at 19.05 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f222447-37c3-40ae-968b-1d3f88fd260f")
-	)
-	(junction
 		(at 44.45 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6120,6 +6084,12 @@
 		(uuid "ccf77295-843a-408b-aefd-6737382df032")
 	)
 	(junction
+		(at 19.05 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cebde487-46c0-4a2a-ae3a-7d741b8e5977")
+	)
+	(junction
 		(at 76.2 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6146,10 +6116,6 @@
 	(no_connect
 		(at 234.95 72.39)
 		(uuid "31866ba3-d1a7-4087-b31d-d5c4a320a1cd")
-	)
-	(no_connect
-		(at 29.21 45.72)
-		(uuid "39033b29-f19f-49d8-9128-ba65ebe36230")
 	)
 	(no_connect
 		(at 234.95 69.85)
@@ -6195,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 43.18) (xy 29.21 43.18)
+			(xy 31.75 41.91) (xy 27.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6225,6 +6191,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 34.29) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181e9656-0b3e-48ca-9c72-0958a377b9e9")
+	)
+	(wire
+		(pts
 			(xy 20.32 87.63) (xy 31.75 87.63)
 		)
 		(stroke
@@ -6242,6 +6218,16 @@
 			(type default)
 		)
 		(uuid "1a9d2fdb-d882-49ad-ad8b-2577a6386d24")
+	)
+	(wire
+		(pts
+			(xy 17.78 50.8) (xy 19.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8939ee-d276-4d27-9b0c-a2b9c111376a")
 	)
 	(wire
 		(pts
@@ -6585,6 +6571,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 49.53) (xy 17.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df2db9d-a0a9-480c-8b9e-eac8c06a809a")
+	)
+	(wire
+		(pts
 			(xy 16.51 87.63) (xy 20.32 87.63)
 		)
 		(stroke
@@ -6765,6 +6761,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 41.91) (xy 31.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd25046-7571-4a80-a144-48aae5df4d2c")
+	)
+	(wire
+		(pts
 			(xy 88.9 167.64) (xy 88.9 156.21)
 		)
 		(stroke
@@ -6785,16 +6791,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 50.8) (xy 21.59 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcc29f6-5ff1-4087-8ad5-3889a2e68e3f")
-	)
-	(wire
-		(pts
 			(xy 171.45 149.86) (xy 186.69 149.86)
 		)
 		(stroke
@@ -6802,6 +6798,26 @@
 			(type default)
 		)
 		(uuid "7f4e84fd-4ded-4c39-98e9-12c32a127401")
+	)
+	(wire
+		(pts
+			(xy 20.32 49.53) (xy 20.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816a1db7-fb21-4352-837b-c7e023f96af1")
+	)
+	(wire
+		(pts
+			(xy 20.32 50.8) (xy 19.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8531a7c0-92f1-4499-8a82-64bc765a76ff")
 	)
 	(wire
 		(pts
@@ -6925,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 35.56) (xy 44.45 35.56)
+			(xy 27.94 34.29) (xy 44.45 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7075,7 +7091,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 40.64) (xy 38.1 40.64)
+			(xy 27.94 39.37) (xy 38.1 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7112,6 +7128,16 @@
 			(type default)
 		)
 		(uuid "c32ea0d2-cf4c-4bbb-9357-83c04bc7b3dd")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54d9146-55c8-4059-bc6e-49f1adb09bd8")
 	)
 	(polyline
 		(pts
@@ -9893,6 +9919,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_B")
+		(at 20.32 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33b1fd2c-b63d-4c31-bacf-5b02e2a205ab")
+		(property "Reference" "J1"
+			(at 20.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://makerselectronics.com/product/usb-connector-on-pcb-b-type-female/?srsltid=AfmBOor0KxhBgwTNPC40mW2aFZHyVsxA8Kw2CJfDPEyBWQGF0YMEHq_R"
+			(at 24.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type B connector"
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "link" "https://makerselectronics.com/product/usb-connector-on-pcb-b-type-female/?srsltid=AfmBOor0KxhBgwTNPC40mW2aFZHyVsxA8Kw2CJfDPEyBWQGF0YMEHq_R"
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6943fa90-27ab-43fa-b718-2f7ca7025dfd")
+		)
+		(pin "1"
+			(uuid "5ada0fef-0ffd-42ec-893b-f481a8cf7d54")
+		)
+		(pin "4"
+			(uuid "9e186828-0061-4bc0-a920-6a773921b948")
+		)
+		(pin "3"
+			(uuid "649c5b38-350e-4bab-baab-0c8eb8a62301")
+		)
+		(pin "2"
+			(uuid "28d05c95-8d05-4977-baa0-e0b71058f1ce")
+		)
+		(instances
+			(project ""
+				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 58.42 91.44 0)
 		(unit 1)
@@ -10832,95 +10944,6 @@
 			(project "customESP32board"
 				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_B_Micro")
-		(at 21.59 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fa1a01b-d715-43c2-aadb-5c6986639806")
-		(property "Reference" "J1"
-			(at 21.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B_Micro"
-			(at 21.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_629105150521"
-			(at 25.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://uge-one.com/product/micro-usb-5pin-smd-connector-4-legs/?srsltid=AfmBOooYsLu83HBX0h_ZTWFs7ijfYeXHbH9weshkzWBaOrYEr-u_RTRQ"
-			(at 25.4 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Micro Type B connector"
-			(at 21.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://uge-one.com/product/micro-usb-5pin-smd-connector-4-legs/?srsltid=AfmBOooYsLu83HBX0h_ZTWFs7ijfYeXHbH9weshkzWBaOrYEr-u_RTRQ"
-			(at 21.59 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f94ff31-29b8-4603-a326-14b106e09d46")
-		)
-		(pin "5"
-			(uuid "4aeba525-33e4-4984-a764-ecd83c33bf6d")
-		)
-		(pin "2"
-			(uuid "b5c54566-1767-4e7f-a743-150dbf7e96cb")
-		)
-		(pin "4"
-			(uuid "a6a96fa7-9dad-49b2-b441-cdb032e91286")
-		)
-		(pin "6"
-			(uuid "ef193c96-ef11-49cf-a126-36bf537d7bfe")
-		)
-		(pin "3"
-			(uuid "fb4c01a5-643e-4ea4-b7db-c8871972d061")
-		)
-		(instances
-			(project ""
-				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
-					(reference "J1")
 					(unit 1)
 				)
 			)
