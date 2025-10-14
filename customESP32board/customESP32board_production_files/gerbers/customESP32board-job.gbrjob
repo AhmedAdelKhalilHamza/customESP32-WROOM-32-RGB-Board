@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-10-01T22:28:33+03:00"
+    "CreationDate": "2025-10-15T00:42:27+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "customESP32board",
       "GUID": "63757374-6f6d-4455-9350-3332626f6172",
-      "Revision": "rev?"
+      "Revision": "V1_1"
     },
     "Size": {
-      "X": 55.05,
-      "Y": 55.05
+      "X": 60.05,
+      "Y": 65.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -24,12 +24,12 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.1524,
-      "PadToTrack": 0.1524,
-      "TrackToTrack": 0.1524,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.1524,
-      "RegionToRegion": 0.1524
+      "PadToPad": 0.4,
+      "PadToTrack": 0.4,
+      "TrackToTrack": 0.4,
+      "MinLineWidth": 0.4,
+      "TrackToRegion": 0.4,
+      "RegionToRegion": 0.4
     }
   ],
   "FilesAttributes": [
@@ -86,6 +86,11 @@
     {
       "Path": "customESP32board-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "customESP32board-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     }
   ],
