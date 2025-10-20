@@ -9281,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "220 Ohm, 1/4 Watt"
 			(at 140.97 118.11 90)
 			(effects
 				(font
@@ -11986,7 +11986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF, 25V"
 			(at 64.77 31.7562 0)
 			(effects
 				(font
@@ -12206,7 +12206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF, 10v"
+		(property "Value" "0.1uF, 10V"
 			(at 32.004 93.472 0)
 			(effects
 				(font
@@ -12808,7 +12808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF, 10v"
+		(property "Value" "10uF, 25V"
 			(at 20.32 93.472 0)
 			(effects
 				(font
@@ -13225,7 +13225,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "220 Ohm, 1/4 Watt"
 			(at 140.97 139.7 90)
 			(effects
 				(font
@@ -13373,7 +13373,7 @@
 		(dnp no)
 		(uuid "a27c0149-dda4-46a8-9d76-ea5b22f06851")
 		(property "Reference" "C3"
-			(at 104.1462 182.88 90)
+			(at 111.252 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,8 +13381,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 109.982 182.626 90)
+		(property "Value" "0.1uF, 10V"
+			(at 114.808 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14049,7 +14049,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "220 Ohm, 1/4 Watt"
 			(at 140.97 157.48 90)
 			(effects
 				(font
