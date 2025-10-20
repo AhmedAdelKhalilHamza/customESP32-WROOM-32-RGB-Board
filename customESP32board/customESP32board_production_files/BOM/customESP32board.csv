@@ -23,7 +23,7 @@
 "R7,R8,R9,R10","4","220 Ohm, 1/4 Watt","Resistor_SMD:R_0603_1608Metric","https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
 "R11,R12","2","130 Ohm","Resistor_SMD:R_0805_2012Metric","https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
 "R13,R14,R15","3","220 Ohm","Resistor_SMD:R_0603_1608Metric","https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
-"SW1,SW2","2","SW_Push","TS-1088-AR02016:SW_TS-1088-AR02016","https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/,https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
+"SW1,SW2","2","SW_Push","TS-1088-AR02016:SW_TS-1088-AR02016","https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
 "U1","1","ESP32-WROOM-32","RF_Module:ESP32-WROOM-32","https://uge-one.com/product/espressif-esp32-wroom-32-dual-core-wi-fi-bluetooth-iot-module/"
 "U2","1","CH340C","CH340C:CH340C","https://makerselectronics.com/product/ch340c-smd-ic-transceiver-usb-2-0-2mbps-sop-16/"
 "U3","1","AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://makerselectronics.com/product/ams1117-3-3v-smd-fixed-12v-3-3v-800ma-sot-223-dropout-regulators/?srsltid=AfmBOoqNF4MQc6D8e60yfeiZGEMG7Igl19cgg_Qt-N1AuS9NyKyJOlvN"
