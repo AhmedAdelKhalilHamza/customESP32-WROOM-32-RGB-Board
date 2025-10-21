@@ -9281,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 140.97 118.11 90)
 			(effects
 				(font
@@ -9780,7 +9780,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 147.32 59.436 90)
 			(effects
 				(font
@@ -12129,7 +12129,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 190.5 127 90)
 			(effects
 				(font
@@ -13148,7 +13148,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 147.32 38.1 90)
 			(effects
 				(font
@@ -13225,7 +13225,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 140.97 139.7 90)
 			(effects
 				(font
@@ -14049,7 +14049,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 140.97 157.48 90)
 			(effects
 				(font
@@ -14474,7 +14474,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 147.32 49.784 90)
 			(effects
 				(font

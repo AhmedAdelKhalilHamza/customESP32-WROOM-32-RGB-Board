@@ -18,7 +18,7 @@
 "R2,R3,R16,R17,R18","5","10k Ohm","Resistor_SMD:R_0805_2012Metric","https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-0-125w-%c2%b1100ppm-%e2%84%83-0805/"
 "R4","1","1k Ohm","Resistor_SMD:R_0603_1608Metric","https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b15-0-125w-%c2%b1100ppm-%e2%84%83-0603/"
 "R5,R6","2","10 Ohm","Resistor_SMD:R_1206_3216Metric","https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
-"R7,R8,R9,R10,R13,R14,R15","7","220 Ohm, 1/4 Watt","Resistor_SMD:R_0603_1608Metric","https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+"R7,R8,R9,R10,R13,R14,R15","7","200 Ohm, 1/4 Watt","Resistor_SMD:R_0603_1608Metric","https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
 "R11,R12","2","130 Ohm","Resistor_SMD:R_0805_2012Metric","https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
 "SW1,SW2","2","SW_Push","TS-1088-AR02016:SW_TS-1088-AR02016","https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
 "U1","1","ESP32-WROOM-32","RF_Module:ESP32-WROOM-32","https://uge-one.com/product/espressif-esp32-wroom-32-dual-core-wi-fi-bluetooth-iot-module/"
