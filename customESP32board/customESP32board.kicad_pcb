@@ -420,7 +420,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF, 10v"
+		(property "Value" "10uF, 25V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "d1c31241-1001-4cb2-91b0-cfaf4f5a9ff8")
@@ -1525,7 +1525,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF/25V"
+		(property "Value" "10uF, 25V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "2924fed8-b6a4-4f11-a303-57b29a5078df")
@@ -3233,7 +3233,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ead15830-1640-4465-9f29-43eb76710ac2")
@@ -3659,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ed62c2e6-ba5f-40c7-b274-6e50997c7be1")
@@ -4333,7 +4333,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1uF, 10V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "48c83d88-20db-43b2-9ad7-99393d21d5a0")
@@ -4546,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF, 10v"
+		(property "Value" "0.1uF, 10V"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "746d5a47-5ded-4021-829d-fccc8e4c82cb")
@@ -4759,7 +4759,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "79ec2b7e-df17-40f3-b582-8e116b237d98")
@@ -6081,7 +6081,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1dfa27c2-3699-4c16-9404-0ac376544d8d")
@@ -9119,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9256772c-20db-4b42-bbc4-6240bf952493")
@@ -9753,7 +9753,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f5d3ed09-cd91-43a9-85f3-4b8409695511")
@@ -12072,7 +12072,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ohm"
+		(property "Value" "200 Ohm, 1/4 Watt"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "75eee80a-bccd-4f01-9ef6-31369d255e51")
@@ -12318,7 +12318,7 @@
 				)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/"
+		(property "link" "https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
