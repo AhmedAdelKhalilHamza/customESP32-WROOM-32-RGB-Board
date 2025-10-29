@@ -5819,7 +5819,7 @@
 	)
 	(text "BOOT\n"
 		(exclude_from_sim no)
-		(at 112.776 28.702 0)
+		(at 114.046 27.432 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5868,7 +5868,7 @@
 	)
 	(text "Reset\n"
 		(exclude_from_sim no)
-		(at 85.852 28.956 0)
+		(at 87.122 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5878,7 +5878,7 @@
 	)
 	(text "for each LED (color):\nSafe (recommended) -> limit 12 mA total per GPIO\nR = (Vpin - Vf) / I_Led\np_R = (Vpin - Vf) * I_Led\n\nPer LED current = 12 mA / 3 LEDs = 4.0 mA each.\n\nRed (Vf = 2.1 V)\nV_r = 3.3 − 2.1 = 1.2 V\nR = 1.2 / 0.004 = 300 Ω \nuse standard 300 Ω\nP_R = 1.2 * 0.004 = 0.0048 W (1/4 W resistor fine)\n\nGreen (Vf = 2.8 V)\nV_r = 3.3 − 2.8 = 0.5 V\nR = 0.5 / 0.004 = 125 Ω \nuse standard 130 Ω\nP_R = 0.1 * 0.004 = 0.0004 W\n\nBlue (Vf = 3.2 V)\nsame as green "
 		(exclude_from_sim no)
-		(at 124.206 87.122 0)
+		(at 125.476 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5945,6 +5945,26 @@
 		)
 		(uuid "dc3872bf-c4b3-4a2d-a4fa-b3d385b6b8a6")
 	)
+	(text_box "SMD Componens:\n1) minimum SMD size are 1206 package\n2) all SMD components must be hand soldered footprint for easy assmebly"
+		(exclude_from_sim no)
+		(at -68.58 21.59 0)
+		(size 52.07 35.56)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "486f75e9-3c2f-448b-9bfb-c66a69b391c8")
+	)
 	(junction
 		(at 147.32 143.51)
 		(diameter 0)
@@ -5958,7 +5978,7 @@
 		(uuid "084d9ffd-f766-44d5-a90f-4bdc575ad1c4")
 	)
 	(junction
-		(at 105.41 43.18)
+		(at 106.68 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0afad37c-feb8-4da0-b2e2-a0f994a2b899")
@@ -6006,7 +6026,7 @@
 		(uuid "36db73f8-0927-4b90-b772-c333b98b94aa")
 	)
 	(junction
-		(at 213.36 68.58)
+		(at 214.63 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37684cd4-3fb4-4bc7-a085-15c4f80a3ff7")
@@ -6060,7 +6080,7 @@
 		(uuid "bceef90d-70bc-4a0f-a4c2-e439411950f1")
 	)
 	(junction
-		(at 213.36 91.44)
+		(at 214.63 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "beee383c-5b0a-45b1-8afd-b2134cfb8d59")
@@ -6072,7 +6092,7 @@
 		(uuid "c643243c-28f3-42b8-ac16-b2c4ffb95708")
 	)
 	(junction
-		(at 91.44 43.18)
+		(at 92.71 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc38d7c8-f364-42ee-9fe8-419b0d5d479a")
@@ -6291,7 +6311,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 44.45) (xy 213.36 68.58)
+			(xy 214.63 38.1) (xy 214.63 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6331,7 +6351,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 29.21) (xy 91.44 34.29)
+			(xy 92.71 27.94) (xy 92.71 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6431,7 +6451,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 41.91) (xy 91.44 43.18)
+			(xy 92.71 40.64) (xy 92.71 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6451,7 +6471,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 44.45) (xy 213.36 44.45)
+			(xy 208.28 38.1) (xy 214.63 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6491,7 +6511,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 53.34) (xy 91.44 55.88)
+			(xy 92.71 52.07) (xy 92.71 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6591,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 53.34) (xy 105.41 55.88)
+			(xy 106.68 52.07) (xy 106.68 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6651,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 41.91) (xy 105.41 43.18)
+			(xy 106.68 40.64) (xy 106.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6711,7 +6731,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 91.44) (xy 213.36 91.44)
+			(xy 208.28 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6831,7 +6851,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 91.44) (xy 213.36 95.25)
+			(xy 214.63 85.09) (xy 214.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6871,7 +6891,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 43.18) (xy 107.95 43.18)
+			(xy 106.68 41.91) (xy 109.22 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7001,7 +7021,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 43.18) (xy 88.9 43.18)
+			(xy 92.71 41.91) (xy 90.17 41.91)
 		)
 		(stroke
 			(width 0)
@@ -7111,7 +7131,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 29.21) (xy 105.41 34.29)
+			(xy 106.68 27.94) (xy 106.68 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7121,7 +7141,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 213.36 91.44)
+			(xy 214.63 62.23) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7281,7 +7301,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 68.58) (xy 213.36 68.58)
+			(xy 208.28 62.23) (xy 214.63 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7505,7 +7525,7 @@
 	)
 	(global_label "RGB_BLUE"
 		(shape input)
-		(at 196.85 63.5 180)
+		(at 198.12 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7515,7 +7535,7 @@
 		)
 		(uuid "1037468a-3cac-464e-a4a5-c2797a7a1285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3096 63.5 0)
+			(at 185.5796 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7635,7 @@
 	)
 	(global_label "RGB_RED"
 		(shape input)
-		(at 196.85 73.66 180)
+		(at 198.12 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7625,7 +7645,7 @@
 		)
 		(uuid "15529e1f-ce95-47dd-bdf6-7ac8f3dfc3cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3982 73.66 0)
+			(at 186.6682 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7789,7 @@
 	)
 	(global_label "RGB_GREEN"
 		(shape input)
-		(at 196.85 68.58 180)
+		(at 198.12 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7779,7 +7799,7 @@
 		)
 		(uuid "2dc837e0-a822-441a-8fb9-d14af1272435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9187 68.58 0)
+			(at 184.1887 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +7921,7 @@
 	)
 	(global_label "RGB_RED"
 		(shape input)
-		(at 196.85 49.53 180)
+		(at 198.12 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7911,7 +7931,7 @@
 		)
 		(uuid "397a0870-5028-4496-b81d-ef5aad83578a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3982 49.53 0)
+			(at 186.6682 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8031,7 @@
 	)
 	(global_label "ESP_IO18"
 		(shape input)
-		(at 143.51 62.23 180)
+		(at 144.78 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8021,7 +8041,7 @@
 		)
 		(uuid "4ae5006b-5a33-4c1f-b6d1-bc2d024b632a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5744 62.23 0)
+			(at 132.8444 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,7 +8053,7 @@
 	)
 	(global_label "ESP_IO21"
 		(shape input)
-		(at 143.51 40.64 180)
+		(at 144.78 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8043,7 +8063,7 @@
 		)
 		(uuid "4c581135-7e55-4e72-b526-133cd18c37a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5744 40.64 0)
+			(at 132.8444 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +8075,7 @@
 	)
 	(global_label "RGB_GREEN"
 		(shape input)
-		(at 151.13 52.07 0)
+		(at 152.4 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8065,7 +8085,7 @@
 		)
 		(uuid "56368759-1593-46ec-ae95-12ad6a258e8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.0613 52.07 0)
+			(at 166.3313 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8119,7 @@
 	)
 	(global_label "RGB_GREEN"
 		(shape input)
-		(at 196.85 44.45 180)
+		(at 198.12 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8109,7 +8129,7 @@
 		)
 		(uuid "5cc048aa-ccc7-4fc4-b761-ad8e4115de73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9187 44.45 0)
+			(at 184.1887 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8163,7 @@
 	)
 	(global_label "RGB_BLUE"
 		(shape input)
-		(at 196.85 39.37 180)
+		(at 198.12 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8153,7 +8173,7 @@
 		)
 		(uuid "633ed37d-abf4-47a6-a0c2-ef1c7ea177b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3096 39.37 0)
+			(at 185.5796 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,7 +8427,7 @@
 	)
 	(global_label "RGB_BLUE"
 		(shape input)
-		(at 196.85 86.36 180)
+		(at 198.12 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8417,7 +8437,7 @@
 		)
 		(uuid "993e5299-eb83-4462-b151-49441f4f21f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3096 86.36 0)
+			(at 185.5796 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +8559,7 @@
 	)
 	(global_label "RGB_GREEN"
 		(shape input)
-		(at 196.85 91.44 180)
+		(at 198.12 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8549,7 +8569,7 @@
 		)
 		(uuid "9fb35da0-e1e9-42ff-98db-c5c6ba61c4fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9187 91.44 0)
+			(at 184.1887 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8625,7 @@
 	)
 	(global_label "ESP_IO19"
 		(shape input)
-		(at 143.51 52.07 180)
+		(at 144.78 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8615,7 +8635,7 @@
 		)
 		(uuid "a648ff7d-0780-4729-bc32-ffa7940e5a16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.5744 52.07 0)
+			(at 132.8444 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8647,7 @@
 	)
 	(global_label "RGB_BLUE"
 		(shape input)
-		(at 151.13 40.64 0)
+		(at 152.4 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8637,7 +8657,7 @@
 		)
 		(uuid "a89362d0-b49f-46a6-9043-3c439112760e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6704 40.64 0)
+			(at 164.9404 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8713,7 @@
 	)
 	(global_label "ESP_EN"
 		(shape input)
-		(at 88.9 43.18 180)
+		(at 90.17 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8703,7 +8723,7 @@
 		)
 		(uuid "ac586450-6332-4f76-b54f-36943afd6832")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.8392 43.18 0)
+			(at 80.1092 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8823,7 @@
 	)
 	(global_label "RGB_RED"
 		(shape input)
-		(at 196.85 96.52 180)
+		(at 198.12 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8813,7 +8833,7 @@
 		)
 		(uuid "bf98ff08-e557-410a-b42c-514c31eafc9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3982 96.52 0)
+			(at 186.6682 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +8955,7 @@
 	)
 	(global_label "ESP_IO0"
 		(shape input)
-		(at 107.95 43.18 0)
+		(at 109.22 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8945,7 +8965,7 @@
 		)
 		(uuid "d6ccfa60-a536-47ae-af51-8acd137b079a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.6761 43.18 0)
+			(at 119.9461 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9065,7 @@
 	)
 	(global_label "RGB_RED"
 		(shape input)
-		(at 151.13 62.23 0)
+		(at 152.4 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9055,7 +9075,7 @@
 		)
 		(uuid "ead73ade-0006-440c-8c3e-d133f298a37d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.5818 62.23 0)
+			(at 163.8518 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9301,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm"
 			(at 140.97 118.11 90)
 			(effects
 				(font
@@ -9289,7 +9309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.97 120.142 90)
 			(effects
 				(font
@@ -9401,6 +9421,73 @@
 			(project "customESP32board"
 				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 125.73 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf005ba-f6a6-4d07-ad5b-6f7013aee3e3")
+		(property "Reference" "H2"
+			(at 128.27 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 125.73 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 125.73 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74afbb48-1012-4e1f-ab0a-fa8472307acc")
+		)
+		(instances
+			(project "customESP32board"
+				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9627,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_BGKR")
-		(at 201.93 91.44 180)
+		(at 203.2 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9549,7 +9636,7 @@
 		(fields_autoplaced yes)
 		(uuid "2075430e-dd77-4664-a506-ef5be56027d0")
 		(property "Reference" "D8"
-			(at 201.93 78.74 0)
+			(at 203.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,7 +9644,7 @@
 			)
 		)
 		(property "Value" "LED_BGKR"
-			(at 201.93 81.28 0)
+			(at 203.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +9652,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 201.93 90.17 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,7 +9661,7 @@
 			)
 		)
 		(property "Datasheet" "https://makerselectronics.com/product/rgb-diffused-led-common-cathode-5mm/"
-			(at 201.93 90.17 0)
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9670,7 @@
 			)
 		)
 		(property "Description" "RGB LED, blue/green/cathode/red"
-			(at 201.93 91.44 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +9679,7 @@
 			)
 		)
 		(property "link" "https://makerselectronics.com/product/rgb-diffused-led-common-cathode-5mm/"
-			(at 201.93 91.44 0)
+			(at 203.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 190.5 141.478 90)
 			(effects
 				(font
@@ -9765,7 +9852,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 62.23 90)
+		(at 148.59 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9773,23 +9860,23 @@
 		(dnp no)
 		(uuid "28c41757-1225-4029-9090-008b27eb6f73")
 		(property "Reference" "R9"
-			(at 147.32 57.658 90)
+			(at 148.59 51.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
-			(at 147.32 59.436 90)
+		(property "Value" "200 Ohm"
+			(at 148.59 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 64.008 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 148.59 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +9885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 62.23 0)
+			(at 148.59 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9894,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 62.23 0)
+			(at 148.59 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +9903,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
-			(at 147.32 62.23 90)
+			(at 148.59 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +9954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 145.542 127 90)
 			(effects
 				(font
@@ -10031,7 +10118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 59.3852 95.25 0)
 			(effects
 				(font
@@ -10084,7 +10171,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 38.1 180)
+		(at 106.68 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10093,7 +10180,7 @@
 		(fields_autoplaced yes)
 		(uuid "39ad4bae-3915-404e-8a84-fd03e6b8d41c")
 		(property "Reference" "R6"
-			(at 107.95 36.8299 0)
+			(at 109.22 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,8 +10188,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 Ohm"
-			(at 107.95 39.3699 0)
+		(property "Value" "10k Ohm"
+			(at 109.22 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,8 +10197,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.188 38.1 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 108.458 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 38.1 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10216,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 38.1 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10225,7 @@
 			)
 		)
 		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
-			(at 105.41 38.1 0)
+			(at 106.68 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
 			(at 125.73 179.07 0)
 			(effects
 				(font
@@ -10451,7 +10538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 190.5 151.638 90)
 			(effects
 				(font
@@ -10596,7 +10683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 145.542 165.1 90)
 			(effects
 				(font
@@ -10715,7 +10802,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 38.1 180)
+		(at 92.71 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10724,7 +10811,7 @@
 		(fields_autoplaced yes)
 		(uuid "512b6e9d-aefc-4f59-aae3-07ae52fbf3ff")
 		(property "Reference" "R5"
-			(at 93.98 36.8299 0)
+			(at 95.25 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,8 +10819,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 Ohm"
-			(at 93.98 39.3699 0)
+		(property "Value" "10k Ohm"
+			(at 95.25 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,8 +10828,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 93.218 38.1 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 94.488 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10751,7 +10838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 38.1 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +10847,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 91.44 38.1 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10856,7 @@
 			)
 		)
 		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
-			(at 91.44 38.1 0)
+			(at 92.71 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10898,7 +10985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 151.638 90)
 			(effects
 				(font
@@ -11619,7 +11706,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 55.88 0)
+		(at 106.68 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11628,7 +11715,7 @@
 		(fields_autoplaced yes)
 		(uuid "78efcdc0-3a2a-4eb4-b5df-c7acd4e4fed7")
 		(property "Reference" "#PWR012"
-			(at 105.41 62.23 0)
+			(at 106.68 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11637,7 +11724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 60.96 0)
+			(at 106.68 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11645,7 +11732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 55.88 0)
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,7 +11741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 55.88 0)
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11663,7 +11750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 55.88 0)
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11836,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 91.44 48.26 90)
+		(at 92.71 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11758,7 +11845,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dff82c7-9f71-45b4-b51b-afeb687fd47c")
 		(property "Reference" "SW1"
-			(at 92.71 46.9899 90)
+			(at 93.98 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11854,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 92.71 49.5299 90)
+			(at 93.98 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +11863,7 @@
 			)
 		)
 		(property "Footprint" "TS-1088-AR02016:SW_TS-1088-AR02016"
-			(at 86.36 48.26 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,7 +11872,7 @@
 			)
 		)
 		(property "Datasheet" "https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/"
-			(at 86.36 48.26 0)
+			(at 87.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11794,7 +11881,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 48.26 0)
+			(at 92.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11803,7 +11890,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
-			(at 91.44 48.26 90)
+			(at 92.71 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +12003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 177.038 90)
 			(effects
 				(font
@@ -11995,7 +12082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 62.23 30.48 0)
 			(effects
 				(font
@@ -12048,7 +12135,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 55.88 0)
+		(at 92.71 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12057,7 +12144,7 @@
 		(fields_autoplaced yes)
 		(uuid "84410589-3070-4158-be80-e250080734a0")
 		(property "Reference" "#PWR010"
-			(at 91.44 62.23 0)
+			(at 92.71 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12066,7 +12153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 60.96 0)
+			(at 92.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +12161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 55.88 0)
+			(at 92.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +12170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 55.88 0)
+			(at 92.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,7 +12179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 55.88 0)
+			(at 92.71 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12129,7 +12216,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm"
 			(at 190.5 127 90)
 			(effects
 				(font
@@ -12137,7 +12224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 190.5 131.318 90)
 			(effects
 				(font
@@ -12215,7 +12302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 31.75 91.44 0)
 			(effects
 				(font
@@ -12817,7 +12904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 20.32 91.44 0)
 			(effects
 				(font
@@ -13080,7 +13167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -13133,7 +13220,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 40.64 90)
+		(at 148.59 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13141,23 +13228,23 @@
 		(dnp no)
 		(uuid "9bc05948-c524-4d31-a277-b1a45c6b8cd3")
 		(property "Reference" "R7"
-			(at 147.574 35.814 90)
+			(at 148.844 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
-			(at 147.32 38.1 90)
+		(property "Value" "130 Ohm"
+			(at 148.59 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 42.418 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 148.59 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13166,7 +13253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 40.64 0)
+			(at 148.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +13262,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 40.64 0)
+			(at 148.59 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,7 +13271,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
-			(at 147.32 40.64 90)
+			(at 148.59 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13225,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm"
 			(at 140.97 139.7 90)
 			(effects
 				(font
@@ -13233,7 +13320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.97 141.732 90)
 			(effects
 				(font
@@ -13286,7 +13373,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 105.41 48.26 90)
+		(at 106.68 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13295,7 +13382,7 @@
 		(fields_autoplaced yes)
 		(uuid "a11be837-4b77-4863-aefe-c46e0f16d864")
 		(property "Reference" "SW2"
-			(at 106.68 46.9899 90)
+			(at 107.95 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,7 +13391,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 106.68 49.5299 90)
+			(at 107.95 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13400,7 @@
 			)
 		)
 		(property "Footprint" "TS-1088-AR02016:SW_TS-1088-AR02016"
-			(at 100.33 48.26 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +13409,7 @@
 			)
 		)
 		(property "Datasheet" "https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
-			(at 100.33 48.26 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13331,7 +13418,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 105.41 48.26 0)
+			(at 106.68 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13340,7 +13427,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
-			(at 105.41 48.26 90)
+			(at 106.68 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 105.41 185.42 0)
 			(effects
 				(font
@@ -13552,7 +13639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 43.18 55.88 0)
 			(effects
 				(font
@@ -13605,7 +13692,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 91.44 29.21 0)
+		(at 92.71 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13614,7 +13701,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6625d9b-fa86-456f-ab60-63e9d0083abc")
 		(property "Reference" "#PWR04"
-			(at 91.44 33.02 0)
+			(at 92.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13623,7 +13710,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 91.44 24.13 0)
+			(at 92.71 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,7 +13718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 29.21 0)
+			(at 92.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13640,7 +13727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 29.21 0)
+			(at 92.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,7 +13736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 91.44 29.21 0)
+			(at 92.71 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13697,7 +13784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 91.948 81.28 90)
 			(effects
 				(font
@@ -14049,7 +14136,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
+		(property "Value" "200 Ohm"
 			(at 140.97 157.48 90)
 			(effects
 				(font
@@ -14057,7 +14144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 140.97 159.512 90)
 			(effects
 				(font
@@ -14243,7 +14330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 95.25 0)
+		(at 214.63 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14252,7 +14339,7 @@
 		(fields_autoplaced yes)
 		(uuid "b63f51fe-7b29-40fa-aeb7-dfb8e8fa1e22")
 		(property "Reference" "#PWR024"
-			(at 213.36 101.6 0)
+			(at 214.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14261,7 +14348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 100.33 0)
+			(at 214.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14269,7 +14356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 95.25 0)
+			(at 214.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,7 +14365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 95.25 0)
+			(at 214.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 95.25 0)
+			(at 214.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14459,7 +14546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 147.32 52.07 90)
+		(at 148.59 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14467,23 +14554,23 @@
 		(dnp no)
 		(uuid "c1f34d82-e091-4aa2-9c64-a3c0a00b5d08")
 		(property "Reference" "R8"
-			(at 147.32 47.244 90)
+			(at 148.59 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "200 Ohm, 1/4 Watt"
-			(at 147.32 49.784 90)
+		(property "Value" "130 Ohm"
+			(at 148.59 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 147.32 53.848 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 148.59 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,7 +14579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 52.07 0)
+			(at 148.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +14588,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 52.07 0)
+			(at 148.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +14597,7 @@
 			)
 		)
 		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
-			(at 147.32 52.07 90)
+			(at 148.59 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14560,7 +14647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 90.17 88.9 0)
 			(effects
 				(font
@@ -14648,7 +14735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 145.542 147.32 90)
 			(effects
 				(font
@@ -14811,7 +14898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 109.728 83.82 90)
 			(effects
 				(font
@@ -14956,7 +15043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 107.95 91.44 0)
 			(effects
 				(font
@@ -15018,7 +15105,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_BGKR")
-		(at 201.93 68.58 180)
+		(at 203.2 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15027,7 +15114,7 @@
 		(fields_autoplaced yes)
 		(uuid "d218fc92-6cb1-4cfe-9d7f-250e085ee3c5")
 		(property "Reference" "D7"
-			(at 201.93 55.88 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15035,7 +15122,7 @@
 			)
 		)
 		(property "Value" "LED_BGKR"
-			(at 201.93 58.42 0)
+			(at 203.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15130,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 201.93 67.31 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,7 +15139,7 @@
 			)
 		)
 		(property "Datasheet" "https://makerselectronics.com/product/rgb-diffused-led-common-cathode-5mm/"
-			(at 201.93 67.31 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15061,7 +15148,7 @@
 			)
 		)
 		(property "Description" "RGB LED, blue/green/cathode/red"
-			(at 201.93 68.58 0)
+			(at 203.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,7 +15157,7 @@
 			)
 		)
 		(property "link" "https://makerselectronics.com/product/rgb-diffused-led-common-cathode-5mm/"
-			(at 201.93 68.58 0)
+			(at 203.2 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15101,7 +15188,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_BGKR")
-		(at 201.93 44.45 180)
+		(at 203.2 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15110,7 +15197,7 @@
 		(fields_autoplaced yes)
 		(uuid "d32c2058-e17d-4925-bd78-f7e0f875ebd5")
 		(property "Reference" "D6"
-			(at 201.93 31.75 0)
+			(at 203.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15118,7 +15205,7 @@
 			)
 		)
 		(property "Value" "LED_BGKR"
-			(at 201.93 34.29 0)
+			(at 203.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15126,7 +15213,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm-4_RGB"
-			(at 201.93 43.18 0)
+			(at 203.2 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15135,7 +15222,7 @@
 			)
 		)
 		(property "Datasheet" "https://makerselectronics.com/product/rgb-diffused-led-common-cathode-5mm/"
-			(at 201.93 43.18 0)
+			(at 203.2 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15144,7 +15231,7 @@
 			)
 		)
 		(property "Description" "RGB LED, blue/green/cathode/red"
-			(at 201.93 44.45 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,7 +15240,7 @@
 			)
 		)
 		(property "link" "https://makerselectronics.com/product/rgb-diffused-led-common-cathode-5mm/"
-			(at 201.93 44.45 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15243,73 +15330,6 @@
 			(project "customESP32board"
 				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 125.73 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8888d19-ebda-4c16-ab72-a4f429bc012f")
-		(property "Reference" "H2"
-			(at 128.27 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 128.27 189.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 125.73 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 125.73 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40738c2c-262e-49b0-8013-7381e39983b7")
-		)
-		(instances
-			(project "customESP32board"
-				(path "/cd0f6669-7f9d-4241-9b3e-05618ad516f1"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -15408,7 +15428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 36.83 55.88 0)
 			(effects
 				(font
@@ -15593,7 +15613,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 105.41 29.21 0)
+		(at 106.68 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15602,7 +15622,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4761932-30d4-40ac-b80c-04688aacf544")
 		(property "Reference" "#PWR011"
-			(at 105.41 33.02 0)
+			(at 106.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15611,7 +15631,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 105.41 24.13 0)
+			(at 106.68 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15619,7 +15639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 29.21 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15628,7 +15648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 29.21 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15637,7 +15657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 29.21 0)
+			(at 106.68 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
