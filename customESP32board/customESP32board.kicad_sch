@@ -9301,7 +9301,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm"
+		(property "Value" "220 Ohm"
 			(at 140.97 118.11 90)
 			(effects
 				(font
@@ -9336,7 +9336,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
 			(at 140.97 121.92 90)
 			(effects
 				(font
@@ -9867,7 +9867,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm"
+		(property "Value" "220 Ohm"
 			(at 148.59 53.086 90)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
 			(at 148.59 55.88 90)
 			(effects
 				(font
@@ -9981,7 +9981,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-0-125w-%c2%b1100ppm-%e2%84%83-0805/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
 			(at 147.32 127 0)
 			(effects
 				(font
@@ -10710,7 +10710,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-0-125w-%c2%b1100ppm-%e2%84%83-0805/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
 			(at 147.32 165.1 0)
 			(effects
 				(font
@@ -11012,7 +11012,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-0-125w-%c2%b1100ppm-%e2%84%83-0805/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
 			(at 87.63 149.86 90)
 			(effects
 				(font
@@ -11889,7 +11889,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
+		(property "link" "https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/"
 			(at 92.71 46.99 90)
 			(effects
 				(font
@@ -12030,7 +12030,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-0-125w-%c2%b1100ppm-%e2%84%83-0805/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
 			(at 87.63 175.26 90)
 			(effects
 				(font
@@ -12109,7 +12109,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-%c2%b110-25v-0805/"
+		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-50v-x5r-%c2%b110-1206/"
 			(at 62.23 30.48 0)
 			(effects
 				(font
@@ -12216,7 +12216,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm"
+		(property "Value" "220 Ohm"
 			(at 190.5 127 90)
 			(effects
 				(font
@@ -12251,7 +12251,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
 			(at 190.5 129.54 90)
 			(effects
 				(font
@@ -12329,7 +12329,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-smd-capacitor-mlcc-smd-smt-100nf-%c2%b110-50v-x7r-0603/"
+		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206/"
 			(at 31.75 91.44 0)
 			(effects
 				(font
@@ -12931,7 +12931,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-%c2%b110-25v-0805/"
+		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-10uf-50v-x5r-%c2%b110-1206/"
 			(at 20.32 91.44 0)
 			(effects
 				(font
@@ -13270,7 +13270,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
 			(at 148.59 34.29 90)
 			(effects
 				(font
@@ -13312,7 +13312,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm"
+		(property "Value" "220 Ohm"
 			(at 140.97 139.7 90)
 			(effects
 				(font
@@ -13347,7 +13347,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
 			(at 140.97 143.51 90)
 			(effects
 				(font
@@ -13426,7 +13426,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-micro-switch-white-tact-s-3-6-5-2-pin/"
+		(property "link" "https://uge-one.com/product/smd-micro-push-button-switch-2p-3x4x2mm/"
 			(at 106.68 46.99 90)
 			(effects
 				(font
@@ -13504,7 +13504,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-smd-capacitor-mlcc-smd-smt-100nf-%c2%b110-50v-x7r-0603/"
+		(property "link" "https://makerselectronics.com/product/multilayer-ceramic-capacitors-mlcc-smd-smt-50v-100nf-x7r-%c2%b110-1206/"
 			(at 105.41 185.42 90)
 			(effects
 				(font
@@ -13811,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-2-2k%cf%89-%c2%b15-0-125w-%c2%b1100ppm-c-0805/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-2-2k%cf%89-%c2%b15-250mw-1206/"
 			(at 90.17 81.28 0)
 			(effects
 				(font
@@ -14136,7 +14136,7 @@
 				)
 			)
 		)
-		(property "Value" "200 Ohm"
+		(property "Value" "220 Ohm"
 			(at 140.97 157.48 90)
 			(effects
 				(font
@@ -14171,7 +14171,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-1206-220r-ohm/?srsltid=AfmBOoqmkuXwKrfJ3VxJ5AIPn5xc8j2ZOYO0PqRCmSUCAxMBlBADOpRb"
 			(at 140.97 161.29 90)
 			(effects
 				(font
@@ -14596,7 +14596,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://uge-one.com/product/smd-chip-resistor-size-0603-220r-220-ohm/?srsltid=AfmBOoomwG_Geoc_FRjnR47Tr9Sv5QvKfEbhZOUQ078dQ9qG_okaj9jM"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-130%cf%89-%c2%b11-0-125w-0805/"
 			(at 148.59 45.72 90)
 			(effects
 				(font
@@ -14683,7 +14683,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-led-0603/?srsltid=AfmBOorYjfgpYXuaPCjOsgniHguapARLiV4EjBLcVDZNF8KNPmgZIGWx"
+		(property "link" "https://makerselectronics.com/product/smd-led-red-1206/"
 			(at 90.17 88.9 0)
 			(effects
 				(font
@@ -14762,7 +14762,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10k%cf%89-%c2%b11-0-125w-%c2%b1100ppm-%e2%84%83-0805/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-10%cf%89-%c2%b15-250mw-1206/"
 			(at 147.32 147.32 0)
 			(effects
 				(font
@@ -14925,7 +14925,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-1k%cf%89-%c2%b15-0-125w-%c2%b1100ppm-%e2%84%83-0603/"
+		(property "link" "https://makerselectronics.com/product/chip-resistor-smd-9-1k%cf%89-%c2%b15-250mw-1206/"
 			(at 107.95 83.82 0)
 			(effects
 				(font
@@ -15079,7 +15079,7 @@
 				(hide yes)
 			)
 		)
-		(property "link" "https://makerselectronics.com/product/smd-led-0603/?srsltid=AfmBOorYjfgpYXuaPCjOsgniHguapARLiV4EjBLcVDZNF8KNPmgZIGWx"
+		(property "link" "https://makerselectronics.com/product/smd-led-blue-1206/"
 			(at 107.95 91.44 90)
 			(effects
 				(font
