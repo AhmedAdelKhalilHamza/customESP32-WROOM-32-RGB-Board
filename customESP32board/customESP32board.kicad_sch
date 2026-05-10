@@ -6217,6 +6217,17 @@
 		)
 		(uuid "12d38c60-6b51-45a6-b213-2f1de859b7eb")
 	)
+	(text "ESP32 pin current sourcing\nPeak Current (Ideal):(3.3V / 200ohm) = 16.5mA)\nPeak Current (Realistic): (2.8V / 200Ohm) = 14mA)"
+		(exclude_from_sim no)
+		(at 171.45 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "222bf725-9c55-4cfe-9195-c94b9293e5ef")
+	)
 	(text "According to the ESP32 Datasheet, \nthe chip is held in reset when the EN pin is below (0.6V). \nIt typically \"wakes up\" and enables the internal regulators\nonce the voltage crosses approximately (0.825V)* ((0.25 * V_DD))"
 		(exclude_from_sim no)
 		(at 14.224 192.786 0)
